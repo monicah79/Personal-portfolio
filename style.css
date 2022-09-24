@@ -67,3 +67,143 @@ ul.icons {
   list-style-type: none;
   padding: 0;
 }
+section.sub-grid-display{
+display:grid;
+gap: 20px;
+padding:10px 0;
+margin: 0 auto;
+}
+.sub-homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 20px;
+  padding: 10px;
+  background-color: gold;
+}
+div.sub-card-details{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: flex-start;
+}
+h2.sub-header {
+  font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+
+color: #172B4D;
+}
+ul.sub-titles {
+  display:flex;
+  padding: 0;
+  /* justify-content: space-between; */
+  list-style-type: none;
+  /* text-align:left; */
+ 
+}
+ul.sub-titles li{
+  white-space: pre;
+  padding: 5px;
+}
+ul.sub-titles li:after {
+   content: "  \00b7  "; 
+  }
+ul.sub-titles li:last-child:after { 
+    content: none; 
+  }
+p.sub-paragraph-page {
+  font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+
+color: #344563;
+
+}
+ul.sub-icons {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  width: 70%;
+  gap: 10px;
+}
+ul.sub-icons li{
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  text-align: center;
+  
+  background: #EBEBFF;
+  border-radius: 8px;
+}
+button.sub-button {
+  font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+padding: 8px 10px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #396DF2;
+}  
+section.sub-language{
+  flex-direction: column;
+  background: red;
+  display: flex; 
+
+}
+div.sub-column{
+  flex-direction: column;
+  height: 200px;
+  background-color: green;
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 327px;
+height: 320.15px;
+
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+div.sub-row{
+  flex-direction: row;
+  
+}
+.sub-language .sub-column .sub-row span{
+  /* height: 72px;
+  width: 600px; */
+  background-color: yellow;
+ 
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+
+display: flex;
+align-items: center;
+
+color: #000000;
+ 
+}
+.list{
+  list-style-type: none;
+  background-color: darkorange;
+}
