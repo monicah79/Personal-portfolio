@@ -101,6 +101,10 @@ h2.sub-header {
   color: #172b4d;
 }
 
+.sub-paragraph-page {
+  text-align: left;
+}
+
 ul.sub-titles {
   display: flex;
   padding: 0;
@@ -164,6 +168,10 @@ button.sub-button {
   color: #396df2;
 }
 
+.mylist-item span {
+  margin-left: 10px;
+}
+
 section.sub-language {
   flex-direction: column;
   display: flex;
@@ -186,10 +194,11 @@ div.sub-row {
   flex-direction: row;
 }
 
-/* .sub-language .sub-column .sub-row span {
+.sub-language .sub-column .sub-row span {
   width: 600px;
   height: 24px;
-  font-family: 'Poppins';
+
+  /* font-family: 'Poppins'; */
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -197,7 +206,7 @@ div.sub-row {
   display: flex;
   align-items: center;
   color: #000;
-} */
+}
 
 .list {
   list-style-type: none;
@@ -215,16 +224,30 @@ div.sub-row {
 
 .mylist-item {
   display: flex;
-  justify-content: space-between;
   padding: 15px 10px;
   background-color: #f7f7f9;
-  margin: 5px 0;
-  width: fit-content;
+  margin-top: 5 px;
+  width: 303px;
+  height: 66.72px;
+  align-items: center;
 }
 
-div.language-heading {
+.language-heading {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 327px;
   margin-top: 20px;
+  list-style-type: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  align-items: center;
+  color: #000;
+}
+
+.divider {
+  width: 327px;
+  border: 1px solid #dfe1e6;
+  margin: 10px 0;
 }
