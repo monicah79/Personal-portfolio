@@ -50,6 +50,7 @@ p.homepage-paragraph {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+
 }
 
 p.homepage-quote {
@@ -83,7 +84,7 @@ section.sub-grid-display {
   text-align: center;
   margin: 0 20px;
   padding: 10px;
-  background-color: gold;
+  background: #FFFFFF;
 }
 
 div.sub-card-details {
@@ -109,10 +110,10 @@ ul.sub-titles {
   display: flex;
   padding: 0;
 
-  /* justify-content: space-between; */
+   
   list-style-type: none;
 
-  /* text-align:left; */
+  
 }
 
 ul.sub-titles li {
@@ -135,6 +136,47 @@ p.sub-paragraph-page {
   line-height: 24px;
   color: #344563;
 }
+.sub-button {
+
+  color: #f4f5f7;
+ 
+  background: #E5E5E5;
+ 
+}
+
+.sub-button:hover {
+color: #FFFFFF;
+  
+background: #E5E5E5;
+  
+border: 1px solid #CED6DE;
+border-radius: 2px;
+
+}
+
+  .sub-button:enabled {
+  background: #FFFFFF;
+  border: 1px solid #7F8CFF;
+border-radius: 8px;
+ 
+  color: #6070FF;
+  
+}
+
+.sub-button:active {
+  background: #2230D2;
+  border-radius: 8px;
+
+}
+
+.sub-button:disabled {
+  background: #E5E5E5;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 3%;
+  color: #5E6C84;
+  padding: 12px;}
 
 ul.sub-icons {
   display: flex;
@@ -198,7 +240,6 @@ div.sub-row {
   width: 600px;
   height: 24px;
 
-  /* font-family: 'Poppins'; */
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
