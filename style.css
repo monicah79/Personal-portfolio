@@ -7,7 +7,6 @@ body {
 .main-page {
   display: flex;
   flex-direction: column;
-  height: 100vh;
 }
 
 header.header {
@@ -34,7 +33,7 @@ section.homepage-section {
   padding: 16px 20px;
 }
 
-section.homepage-section h1 {
+section.homepage-section h2 {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -42,6 +41,8 @@ section.homepage-section h1 {
   display: flex;
   align-items: center;
   color: #172b4d;
+  width: 327px;
+  height: 101px;
 }
 
 p.homepage-paragraph {
@@ -52,7 +53,7 @@ p.homepage-paragraph {
   color: #344563;
 }
 
-p.homepage-quote {
+.homepage-quotes {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -94,11 +95,13 @@ div.sub-card-details {
 }
 
 h2.sub-header {
+  box-sizing: border-box;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
+  margin: 0;
 }
 
 .sub-paragraph-page {
@@ -109,6 +112,7 @@ ul.sub-titles {
   display: flex;
   padding: 0;
   list-style-type: none;
+  justify-content: space-between;
 }
 
 ul.sub-titles li {
@@ -135,6 +139,7 @@ p.sub-paragraph-page {
 .sub-button {
   color: #f4f5f7;
   background: #e5e5e5;
+  font-weight: 500;
 }
 
 .sub-button:hover {
@@ -243,11 +248,13 @@ div.sub-row {
 .mylist {
   list-style-type: none;
   padding: 0;
-  width: 80%;
   display: flex;
   flex-direction: column;
-  height: 100px;
   margin-bottom: 30px;
+  background: #F7F7F9;
+  border-radius: 8px;
+  width: 303px;
+  height: 66.72px;
 }
 
 .mylist-item {
@@ -258,6 +265,7 @@ div.sub-row {
   width: 303px;
   height: 66.72px;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .language-heading {
@@ -267,7 +275,7 @@ div.sub-row {
   margin-top: 20px;
   list-style-type: none;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   align-items: center;
